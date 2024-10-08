@@ -4,6 +4,7 @@ import Home from "../pages/home/index.jsx";
 import PostIndex from "../pages/posts/index.jsx";
 import PostCreate from "../pages/posts/create.jsx";
 import PostEdit from "../pages/posts/edit.jsx";
+import Intro from "../pages/intro/index.jsx";
 
 function Routes() {
     return (
@@ -12,6 +13,7 @@ function Routes() {
             <PostIndex path="/posts" />
             <PostCreate path="/posts/create" />
             <PostEdit path="/posts/edit/:id" />
+            <Intro path="/intro" />
         </Router>
     );
 }

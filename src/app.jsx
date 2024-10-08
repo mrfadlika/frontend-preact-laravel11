@@ -38,13 +38,25 @@ export function App() {
                   </Link>
                 </li>
               </ul>
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <Link
+                    href="/intro"
+                    className="nav-link"
+                    activeClassName="active"
+                    aria-current="page"
+                  >
+                    INTRODUCTION
+                  </Link>
+                </li>
+              </ul>
               <ul className="navbar-nav ms-auto mb-2 mb-lg-0" role="search">
                 <a
-                  href="https://santrikoding.com"
+                  href="https://simogas.novatix.site"
                   target="_blank"
                   className="btn btn-success"
                 >
-                  SANTRIKODING.COM
+                  KUNJUNGI WEBSITE SAYA
                 </a>
               </ul>
             </div>
